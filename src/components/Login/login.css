@@ -1,0 +1,95 @@
+/* General container */
+.login-container {
+    font-family: Arial, sans-serif;
+}
+
+/* Left side (Form) */
+.login-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #ffff;
+}
+
+.login-form {
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-input {
+    margin-bottom: 20px;
+    width: 85%;
+    height: 40px;
+}
+
+.login-button {
+    width: 85%;
+    margin-bottom: 15px;
+    background-color: orange;
+    color: white;
+    height: 40px;
+}
+
+.social-login-buttons {
+    margin-left: 25px;
+}
+
+.social-login-button {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.social-login-buttons img {
+    width: 20px;
+}
+
+.social-login-button.google {
+    color: white;
+    width: 90%;
+    color: black;
+    background: #e5f2ff;
+    height: 40px;
+}
+
+.social-login-button.facebook {
+    color: white;
+    width: 90%;
+    color: black;
+    background: #e5f2ff;
+    height: 40px;
+}
+
+/* Right side (Image) */
+.login-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.login-image {
+    width: 80%;
+    height: 100vh;
+    background-image: url("./images/image.png"); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0; /* Adjust spacing as needed */
+}
+
+.separator::before,
+.separator::after {
+    content: "";
+    flex: 1; 
+    border-top: 1px solid #ccc; 
+    margin: 0 10px; 
+}

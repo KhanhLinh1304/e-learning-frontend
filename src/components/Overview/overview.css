@@ -1,0 +1,53 @@
+.box {
+    border: none;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.box-course .box-logo {
+    background-color: #FC6767;
+}
+.box-instructor .box-logo {
+    background-color: #289B3AE8;
+}
+.box-student .box-logo {
+    background-color: #FF9900;
+}
+.box-register .box-logo {
+    background-color: #6600FF;
+}
+.box-logo {
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-logo img {
+    color: #fff;
+    width: 75%;
+
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.box-text {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.box-description {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: #838181;
+}

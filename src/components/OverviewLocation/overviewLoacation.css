@@ -1,0 +1,26 @@
+.map {
+    width: 80%;
+}
+.address {
+    padding: 10px 20px;
+}
+
+.address:first-child {
+    margin-top: 20px;
+}
+
+.title-location {
+    font-weight: 600;
+    padding-top: 40px ;
+    text-align: center;
+    font-size: 22px;
+}
+
+.address h5 {
+    font-size: 20px;
+}
+
+.address p {
+    font-size: 18px;
+    color: #838181;
+}

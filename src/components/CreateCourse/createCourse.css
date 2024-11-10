@@ -1,0 +1,97 @@
+.course {
+    display: flex;
+    margin-top: 5px;
+
+}
+
+.name-course{
+    width: 65%;
+    margin-left: 60px;
+    height: 30%;
+}
+
+.price-course {
+    width: 65%;
+    margin-left: 40px;
+    height: 30%;
+    margin-top: 10px;
+}
+
+.custom-category {
+    width: 65%;
+    margin-left: 98px;
+    
+}
+
+.des-cousre {
+    width: 65%;
+    margin-left: 55px;
+}
+
+
+.course p {
+    font-weight: 600;
+}
+
+.button-course {
+    margin-top: 20px;
+    display: flex;
+}
+
+.course Button {
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+/* .content-course {
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+} */
+.content-course {
+    width: 80%; /* Reduce the width of the container */
+    max-width: 800px; /* Optional: Set a maximum width to prevent it from getting too large on bigger screens */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 15px; /* Reduce padding to make it more compact */
+    margin: 20px auto; /* Center the container and add vertical spacing */
+    background-color: #fff;
+}
+
+.lesson-course {
+    margin-left: 150px;
+}
+
+.lesson-input {
+    width: 67%;
+}
+
+.lesson-course Button {
+    margin-left: 10px;
+}
+
+.button-course {
+    position: relative;
+    margin: 0;
+}
+
+.button-cancel {
+    position: absolute;
+    
+    
+}
+
+.button-create {
+    position: absolute;
+    right: 0;
+
+}
+.button-create Button {
+    background-color: orange;
+    color: #fff;
+}
+.button-add-lesson {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+

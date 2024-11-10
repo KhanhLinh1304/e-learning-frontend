@@ -1,0 +1,105 @@
+.footer {
+    margin-top: 30px;
+    background:  #e5f2ff;
+    padding: 10px 20px;
+    border-radius: 40% 40% 0% 0%;
+
+}
+
+.footer h3 {
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+.create-course {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-course a  {
+
+    width: 40%;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+.mt-20 {
+    margin-top: 10px;
+}
+
+.button {
+    display: flex;
+}
+.button-down {
+    position: relative;
+    display: flex;
+    margin-right: 20px;
+    background-color: bisque;
+    align-items: center;
+    /* justify-content: center; */
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+}
+
+.button-down-store {
+    background-color: #fff;
+}
+.button-down-play {
+    background-color: black;
+    color: #fff;
+}
+.button-down img {
+   width: 25px;
+   height: auto;
+   position: absolute;
+   left: 15px;
+    
+}
+/* .button-down p {
+    position: absolute;
+    bottom: 10px;
+}
+.button-down h4 {
+margin-bottom: 10px;
+} */
+
+.button-text {
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    width: 100px;
+    height: 50px;
+}
+.button-text p {
+    position: absolute;
+    font-size: 10px;
+}
+.button-text h4 {
+    position: absolute;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    
+}
+.contact img {
+    width: 20px;
+    height: fit-content;
+    margin-right: 10px;
+}
+
+.contact-mail {
+    display: flex;
+}
+
+.contact-mail Input {
+    width: 80%;
+}
+.contact-mail Button {
+    background-color: orange;
+    color: #fff;
+}

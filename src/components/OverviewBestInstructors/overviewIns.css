@@ -1,0 +1,30 @@
+.box-instructor {
+    display: flex;
+    padding: 10px 10px;
+}
+.box-instructor img {
+    width: 30%;
+}
+.instructor-information {
+    padding: 20px 0px;
+    position: relative;
+}
+
+.instructor-information h5 {
+    font-size: 20px;
+}
+
+.instructor-information p {
+    font-size: 17px;
+    position: absolute;
+    top: 65px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.instructor-des {
+        margin-top: 15px;
+        font-size: 18px;
+        color: #838181;
+        text-align: justify;
+        display: inline-block;
+    
+}
